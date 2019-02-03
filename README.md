@@ -1,6 +1,6 @@
 # Vanguard Automation Excercise
 
-The following soution contains UI and API Automation test scripts to validate Vanguard functionalities
+The following solution contains UI and API Automation test scripts to validate Vanguard functionalities
 
  * Java,Cucumber,Gradle, Selenium - for UI Automation
  *  Java,Cucumber,Gradle, Restassured - for API Automation
