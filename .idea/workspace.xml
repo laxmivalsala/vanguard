@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../Integration" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../appium" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ib/Visa-Program_IB" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../vcr 14_11/VCR" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/dev/cardsnew/EndToEndCardsAutomation" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/dev/fca" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/dev/vanguard" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/qtest-sdk-java-1.4.3/qtest-sdk-java-1.4.3/qtest-sdk-sample" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="205" />
+    <option name="y" value="167" />
+    <option name="width" value="1400" />
+    <option name="height" value="992" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549169665226" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vanguard_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

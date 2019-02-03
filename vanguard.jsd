@@ -1,0 +1,252 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "portId",
+      "navPriceArray"
+    ],
+    "properties": {
+      "portId": {
+        "$id": "#/items/properties/portId",
+        "type": "string",
+        "title": "The Portid Schema",
+        "default": "",
+        "examples": [
+          "8205"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "navPriceArray": {
+        "$id": "#/items/properties/navPriceArray",
+        "type": "array",
+        "title": "The Navpricearray Schema",
+        "items": {
+          "$id": "#/items/properties/navPriceArray/items",
+          "type": "object",
+          "title": "The Items Schema",
+          "required": [
+            "amountChange",
+            "asOfDate",
+            "currency",
+            "isFinal",
+            "measureType",
+            "percentChange",
+            "price",
+            "pricePeriodType",
+            "priceStatusType",
+            "yield",
+            "final"
+          ],
+          "properties": {
+            "amountChange": {
+              "$id": "#/items/properties/navPriceArray/items/properties/amountChange",
+              "type": "number",
+              "title": "The Amountchange Schema",
+              "default": 0.0,
+              "examples": [
+                -0.0285
+              ]
+            },
+            "asOfDate": {
+              "$id": "#/items/properties/navPriceArray/items/properties/asOfDate",
+              "type": "string",
+              "title": "The Asofdate Schema",
+              "default": "",
+              "examples": [
+                "2019-02-01T00:00:00-05:00"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "currency": {
+              "$id": "#/items/properties/navPriceArray/items/properties/currency",
+              "type": "object",
+              "title": "The Currency Schema",
+              "required": [
+                "currencyCode",
+                "currencyLocation",
+                "currencySymbol"
+              ],
+              "properties": {
+                "currencyCode": {
+                  "$id": "#/items/properties/navPriceArray/items/properties/currency/properties/currencyCode",
+                  "type": "string",
+                  "title": "The Currencycode Schema",
+                  "default": "",
+                  "examples": [
+                    "AUD"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "currencyLocation": {
+                  "$id": "#/items/properties/navPriceArray/items/properties/currency/properties/currencyLocation",
+                  "type": "string",
+                  "title": "The Currencylocation Schema",
+                  "default": "",
+                  "examples": [
+                    "L"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "currencySymbol": {
+                  "$id": "#/items/properties/navPriceArray/items/properties/currency/properties/currencySymbol",
+                  "type": "string",
+                  "title": "The Currencysymbol Schema",
+                  "default": "",
+                  "examples": [
+                    "$"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            },
+            "isFinal": {
+              "$id": "#/items/properties/navPriceArray/items/properties/isFinal",
+              "type": "boolean",
+              "title": "The Isfinal Schema",
+              "default": false,
+              "examples": [
+                true
+              ]
+            },
+            "measureType": {
+              "$id": "#/items/properties/navPriceArray/items/properties/measureType",
+              "type": "object",
+              "title": "The Measuretype Schema",
+              "required": [
+                "measureCode",
+                "measureDesc"
+              ],
+              "properties": {
+                "measureCode": {
+                  "$id": "#/items/properties/navPriceArray/items/properties/measureType/properties/measureCode",
+                  "type": "string",
+                  "title": "The Measurecode Schema",
+                  "default": "",
+                  "examples": [
+                    "NAV"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "measureDesc": {
+                  "$id": "#/items/properties/navPriceArray/items/properties/measureType/properties/measureDesc",
+                  "type": "string",
+                  "title": "The Measuredesc Schema",
+                  "default": "",
+                  "examples": [
+                    "Net Asset Value"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            },
+            "percentChange": {
+              "$id": "#/items/properties/navPriceArray/items/properties/percentChange",
+              "type": "number",
+              "title": "The Percentchange Schema",
+              "default": 0.0,
+              "examples": [
+                -0.04
+              ]
+            },
+            "price": {
+              "$id": "#/items/properties/navPriceArray/items/properties/price",
+              "type": "number",
+              "title": "The Price Schema",
+              "default": 0.0,
+              "examples": [
+                74.1537
+              ]
+            },
+            "pricePeriodType": {
+              "$id": "#/items/properties/navPriceArray/items/properties/pricePeriodType",
+              "type": "object",
+              "title": "The Priceperiodtype Schema",
+              "required": [
+                "pricePeriodCode",
+                "pricePeriodDesc"
+              ],
+              "properties": {
+                "pricePeriodCode": {
+                  "$id": "#/items/properties/navPriceArray/items/properties/pricePeriodType/properties/pricePeriodCode",
+                  "type": "string",
+                  "title": "The Priceperiodcode Schema",
+                  "default": "",
+                  "examples": [
+                    "DAILY"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "pricePeriodDesc": {
+                  "$id": "#/items/properties/navPriceArray/items/properties/pricePeriodType/properties/pricePeriodDesc",
+                  "type": "string",
+                  "title": "The Priceperioddesc Schema",
+                  "default": "",
+                  "examples": [
+                    "Daily Price"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            },
+            "priceStatusType": {
+              "$id": "#/items/properties/navPriceArray/items/properties/priceStatusType",
+              "type": "object",
+              "title": "The Pricestatustype Schema",
+              "required": [
+                "priceStatusCode",
+                "priceStatusDesc"
+              ],
+              "properties": {
+                "priceStatusCode": {
+                  "$id": "#/items/properties/navPriceArray/items/properties/priceStatusType/properties/priceStatusCode",
+                  "type": "string",
+                  "title": "The Pricestatuscode Schema",
+                  "default": "",
+                  "examples": [
+                    "FINAL"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "priceStatusDesc": {
+                  "$id": "#/items/properties/navPriceArray/items/properties/priceStatusType/properties/priceStatusDesc",
+                  "type": "string",
+                  "title": "The Pricestatusdesc Schema",
+                  "default": "",
+                  "examples": [
+                    "Final Price"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            },
+            "yield": {
+              "$id": "#/items/properties/navPriceArray/items/properties/yield",
+              "type": "null",
+              "title": "The Yield Schema",
+              "default": null,
+              "examples": [
+                null
+              ]
+            },
+            "final": {
+              "$id": "#/items/properties/navPriceArray/items/properties/final",
+              "type": "boolean",
+              "title": "The Final Schema",
+              "default": false,
+              "examples": [
+                true
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
