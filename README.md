@@ -3,7 +3,7 @@
 The following solution contains UI and API Automation test scripts to validate Vanguard functionalities
 
  * Java,Cucumber,Gradle, Selenium - for UI Automation
- *  Java,Cucumber,Gradle, Restassured - for API Automation
+ *  Java,Junit, Restassured, Gradle - for API Automation
 
 
 # Running UI Tests
@@ -11,7 +11,7 @@ The following solution contains UI and API Automation test scripts to validate V
   - Scripts are developed in Intellij (Get Cucumber Plugins to get BDD features in Intellij)
   - Use TestRunner class / Feature file to run the UI test cases
   - Environment/Browser configurations are read from config.properties file, supports both Chrome and Firefox
-  - Implemented using Page Object Model 
+  - Implemented Page Object Model 
   - Page Objects are available in Pages package
   - Selenium wrapper methods are created in Commands class
   - Cucumber scenario hooks are used for initialise and clean up 
@@ -20,7 +20,8 @@ The following solution contains UI and API Automation test scripts to validate V
   # Running API Tests
 
   - API Tests are available in the same project under package apiTest
-  - API tests in VanguardAPITest class can be run using junit 
+  - API tests in VanguardAPITest class can be run using Junit
+  - API Tests are written using Restassured library
 
 # Important
 
